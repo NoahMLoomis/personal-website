@@ -1,1 +1,2 @@
-# Basic test of a static page using github pages
+# ShopifyFrontEndChallenge
+ Challenge for Shopify to demostrate front end knowledge
