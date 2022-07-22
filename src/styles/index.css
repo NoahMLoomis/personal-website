@@ -1,1 +1,28 @@
-@import-normalize;
+@font-face {
+    font-family: Kanit;
+    src: url("./fonts/Kanit-Light.ttf")
+}
+
+body {
+    font-family: Kanit, 'Courier New', Courier, monospace, sans-serif;
+}
+
+.card-container {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 20px;
+    height: 80%;
+  }
+  .card {
+    font-size: 164px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 20px;
+  }
+  
