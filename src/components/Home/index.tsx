@@ -1,54 +1,17 @@
-import { motion, Variants } from "framer-motion";
+import { Grid, Typography } from "@mui/material";
 
 const Home = () => {
-  const homeVarients: Variants = {
-    offscreen: {
-      y: 500,
-    },
-    onscreen: {
-      y: 0,
-      paddingTop: '10%',
-      transition: {
-        type: "spring",
-        bounce: 0.4,
-        duration: 0.8,
-      },
-    },
-  };
   return (
-    <div>
-      <motion.div
-        className="card-container"
-        initial="onscreen"
-        whileInView="onscreen"
-        viewport={{ once: true, amount: 0.8 }}
-      >
-        <motion.div className="card" variants={homeVarients}>
-          Personal section
-        </motion.div>
-      </motion.div>
-      <motion.div
-        className="card-container"
-        initial="offscreen"
-        whileInView="onscreen"
-        viewport={{ once: true, amount: 0.8 }}
-      >
-        <motion.div className="card" variants={homeVarients} style={{backgroundColor: 'red'}}>
-          Personal section
-        </motion.div>
-      </motion.div>
-
-      <motion.div
-        className="card-container"
-        initial="offscreen"
-        whileInView="onscreen"
-        viewport={{ once: true, amount: 0.8 }}
-      >
-        <motion.div className="card" variants={homeVarients}>
-          Personal section
-        </motion.div>
-      </motion.div>
-    </div>
+    <main className="homeMain">
+      <Grid container spacing={2} className="homeGrid">
+        <Grid item border="1px solid black" xs={10}>
+          <div className="headerName">NOAH LOOMIS</div>
+        </Grid>
+        <Grid item border="1px dashed blue" xs={2}>
+          <div>Full Stack Developer</div>
+        </Grid>
+      </Grid>
+    </main>
   );
 };
 
