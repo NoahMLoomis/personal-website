@@ -1,6 +1,18 @@
 /// <reference types="vite/client" />
-interface TabPanelProps {
-    children?: React.ReactNode;
-    index: number;
-    value: number;
-  }
+type IProjectCard = {
+  title: string;
+  img: string;
+  desc: string;
+  tech: string[];
+  src: string;
+  liveLink?: string;
+};
+
+type IColors =
+  | "default"
+  | "primary"
+  | "secondary"
+  | "error"
+  | "info"
+  | "success"
+  | "warning";

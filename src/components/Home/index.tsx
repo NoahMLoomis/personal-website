@@ -1,17 +1,27 @@
-import { Grid, Typography } from "@mui/material";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import { Avatar, Chip } from "@mui/material";
 
 const Home = () => {
   return (
-    <main className="homeMain">
-      <Grid container spacing={2} className="homeGrid">
-        <Grid item border="1px solid black" xs={10}>
-          <div className="headerName">NOAH LOOMIS</div>
-        </Grid>
-        <Grid item border="1px dashed blue" xs={2}>
-          <div>Full Stack Developer</div>
-        </Grid>
-      </Grid>
-    </main>
+    <div className="homeContainer">
+      <Avatar
+        className="img"
+        src="src/assets/me.jpg"
+        alt="image of me"
+        sx={{ width: 200, height: 200 }}
+      />
+      <h2 className="header">Hi, I'm Noah</h2>
+      <div className="tagline">I write code, and love doing it</div>
+      <Chip
+        clickable
+        component="a"
+        href="https://github.com/NoahMLoomis"
+        label="Github"
+        icon={<GitHubIcon />}
+        color="primary"
+        className="github"
+      />
+    </div>
   );
 };
 
