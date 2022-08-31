@@ -6,7 +6,7 @@ const Home = () => {
     <div className="homeContainer">
       <Avatar
         className="img"
-        src="src/assets/me.jpg"
+        src="/public/me.jpg"
         alt="image of me"
         sx={{ width: 200, height: 200 }}
       />
