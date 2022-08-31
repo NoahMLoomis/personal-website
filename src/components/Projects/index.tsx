@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: "Time Analysis",
       desc: "An analysis of time use around the world",
-      img: "/assets/hourglass.jpg",
+      img: "/assets/img/hourglass.jpg",
       tech: ["Next.js", "MongoDB"],
       src: "https://github.com/NoahMLoomis/Time-data-analysis",
       liveLink: "http://data-analysis-five.vercel.app/",
@@ -15,7 +15,7 @@ const Projects = () => {
     {
       title: "PHP sucks facts",
       desc: "PHP sucks. I know it, you know it, your mom knows it",
-      img: "/assets/phpsucks.png",
+      img: "/assets/img/phpsucks.png",
       tech: ["Express", "React", "MongoDB"],
       src: "https://github.com/NoahMLoomis/php-sucks-facts",
       liveLink: "https://phpsucksfacts.herokuapp.com/",
@@ -24,7 +24,7 @@ const Projects = () => {
     {
       title: "E-commerce store",
       desc: "A full stack e commerce store",
-      img: "/assets/cart-outline.png",
+      img: "/assets/img/cart-outline.png",
       tech: ["C#", ".NET", "SQL"],
       src: "https://github.com/NoahMLoomis/Ecommerce-Store",
       key: 2,
@@ -32,7 +32,7 @@ const Projects = () => {
     {
       title: "Titanic  ML",
       desc: "Machine learning to determine who lives",
-      img: "/assets/titanic.jpg",
+      img: "/assets/img/titanic.jpg",
       tech: ["Python", "ML"],
       src: "https://github.com/NoahMLoomis/TitanicML",
       key: 3,
