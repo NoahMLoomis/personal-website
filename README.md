@@ -4,6 +4,9 @@ This project is my personal website
 
 ## TODO
 
-- Make a footer, move Github link to it
+- Add About me section
 - Improve style and design
-- Get a better image
+- Get a better profile image
+- Connect to github to get repos
+- Convert to Nextjs (maybe redwood?)
+- Convert CSS to tailwind

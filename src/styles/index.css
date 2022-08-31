@@ -17,14 +17,12 @@ main {
 }
 
 .header {
+  margin: 0;
   font-size: 50px;
 }
 
 .github {
   margin: 0 auto;
-}
-.tagline {
-  padding-bottom: 1em;
 }
 .img {
   margin: 0 auto 0 auto;
@@ -55,4 +53,13 @@ main {
 }
 .proud_italics {
   font-style: italic;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  padding-bottom: 0.5em;
 }

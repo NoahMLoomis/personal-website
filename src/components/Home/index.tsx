@@ -1,5 +1,4 @@
-import GitHubIcon from "@mui/icons-material/GitHub";
-import { Avatar, Chip } from "@mui/material";
+import { Avatar } from "@mui/material";
 
 const Home = () => {
   return (
@@ -12,15 +11,7 @@ const Home = () => {
       />
       <h2 className="header">Hi, I'm Noah</h2>
       <div className="tagline">I write code, and love doing it</div>
-      <Chip
-        clickable
-        component="a"
-        href="https://github.com/NoahMLoomis"
-        label="Github"
-        icon={<GitHubIcon />}
-        color="primary"
-        className="github"
-      />
+      
     </div>
   );
 };
