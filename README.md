@@ -5,8 +5,7 @@ This project is my personal website
 ## TODO
 
 - Add About me section
-- Improve style and design
-- Get a better profile image
+- Get a better profile image - From github
 - Connect to github to get repos
-- Convert to Nextjs (maybe redwood?)
-- Convert CSS to tailwind
+
+- Convert CSS to tailwind - Use a different UI library
